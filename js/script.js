@@ -83,11 +83,8 @@ const quotes = [
  * `randomColor` function
  * generates a random, not too bright color
  ***/
-const randomNumber = () => Math.floor(Math.random() * 256) - 50;
-
-function randomColor() {
-  return `rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`;
-}
+randomNumber = () => Math.floor(Math.random() * 256) - 50;
+randomColor = () => `rgb(${randomNumber()}, ${randomNumber()}, ${randomNumber()})`;
 
 /***
  * `getRandomQuote` function 
